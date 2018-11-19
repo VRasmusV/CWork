@@ -5,10 +5,40 @@ body{
     background-color: #123;
     font-size: 1rem;
 }
+.headerContainer{
+    width: 100%;
+}
 .headerCol{
     outline: 1px solid #123;
     height: 4vh;
 }
-.headerContainer{
-    
+
+.mainContainer{
+    width: 100%;
+    height: 600vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.mainRow{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mainCard{
+    width: 30%;
+    height: 100%;
+    background-color: olivedrab;
+}
+.mainCardImage{
+    background-size: cover;
+}
+#mci1{
+    width: 100%;
+    height: 75%;
+    background-image: url(../img/plane1.jpg);
 }
