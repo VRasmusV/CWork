@@ -4,38 +4,41 @@ html{
 body{
     background-color: #123;
     font-size: 1rem;
+    overflow-x: hidden;
+
 }
 /* Header */
-.headerContainer{
+.header_container{
     width: 100%;
 }
-.headerCol{
+.header_col{
     outline: 1px solid #123;
     height: 4vh;
 }
 /* Main */
-.mainContainer{
-    width: 100%;
+.main_container{
+    width: 75%;
     height: 600vh;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 auto;
 
 }
-.mainRow{
+.main_row{
     width: 100%;
-    height: 80vh;
+    height: 15%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.mainCard{
+.main_card{
     width: 30%;
     height: 100%;
     background-color: olivedrab;
 }
-.mainCardImage{
+.main_card_image{
     background-size: cover;
     width: 100%;
     height: 60%;
@@ -44,21 +47,28 @@ body{
     background-image: url(../img/plane1.jpg);
 }
 /* Footer */
-.footerContainer{
+.footer_container{
     width: 100%;
     height: 50vh;
     position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.footerWhite{
+.footer_white{
     background-color: azure;
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
-.footerImage{
-    background-image: url(../img/footer_image_1.jpg) ;
+.footer_image{
+    background-image: url(../img/footer_image_2.jpg) ;
     width: 100%;
     height: 100%;
-
+    background-size: cover;
+}
+.footer_articl{
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    z-index: 2;
 }
