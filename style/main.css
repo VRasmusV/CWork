@@ -29,7 +29,6 @@ body{
 }
 .main_row{
     width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -50,35 +49,30 @@ body{
 }
 #mci1{
     background-image: url(../img/plane1.jpg);
-    
 }
 #mci2{
     background-image: url(../img/plane2.jpg)
 }
 #mci3{
     background-image: url(../img/plane1.jpg);
-    
 }
 #mci4{
     background-image: url(../img/plane2.jpg)
 }
 #mci5{
     background-image: url(../img/plane1.jpg);
-    
 }
 #mci6{
     background-image: url(../img/plane2.jpg)
 }
 #mci7{
     background-image: url(../img/plane1.jpg);
-    
 }
 #mci8{
     background-image: url(../img/plane2.jpg)
 }
 #mci9{
     background-image: url(../img/plane1.jpg);
-    
 }
 /* Footer */
 .footer_container{
