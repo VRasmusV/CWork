@@ -1,10 +1,14 @@
 html{
     font-size: 16px;
+
+
 }
 body{
     background-color: #123;
     font-size: 1rem;
     overflow-x: hidden;
+    font-family: Verdana, sans-serif;
+    
 
 }
 /* Header */
@@ -15,6 +19,9 @@ body{
 .header_col{
     outline: 1px solid #123;
     height: 8vh;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: center;
 }
 /* Main */
 .main_container{
