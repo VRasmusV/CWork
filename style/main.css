@@ -75,8 +75,8 @@ body{
 }
     /* carousel begin */
 .carousel_wrapper{
-    width: 70%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 5vh auto;
 }
 .carousel-inner img {
     width: 100%;
@@ -103,14 +103,12 @@ body{
     background-color: #000000;
     box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); 
 }
-
 .carousel-control-next-icon:after
 {
   content: '>';
   font-size: 3rem;
   color: black;
 }
-
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 3rem;
