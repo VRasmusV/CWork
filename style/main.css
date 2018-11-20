@@ -57,7 +57,7 @@ body{
     background-image: url(../img/plane3.jpg);
 }
 #mci4{
-    background-image: url(../img/plane4.jpg)
+    background-image: url(../img/plane4-n.jpg)
 }
 #mci5{
     background-image: url(../img/plane5.jpg);
@@ -69,10 +69,10 @@ body{
     background-image: url(../img/plane7.jpg);
 }
 #mci8{
-    background-image: url(../img/plane8.jpg)
+    background-image: url(../img/plane8-n.jpg)
 }
 #mci9{
-    background-image: url(../img/plane9.jpg);
+    background-image: url(../img/plane9-n.jpg);
 }
 /* Footer */
 .footer_container{
