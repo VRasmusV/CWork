@@ -13,7 +13,7 @@ body{
 }
 .header_col{
     outline: 1px solid #123;
-    height: 4vh;
+    height: 8vh;
 }
 /* Main */
 .main_container{
@@ -50,29 +50,85 @@ body{
     background-image: url(../img/plane1.jpg);
 }
 #mci2{
-    background-image: url(../img/plane2.jpg)
+    background-image: url(../img/plane2.jpg);
 }
 #mci3{
     background-image: url(../img/plane3.jpg);
 }
 #mci4{
-    background-image: url(../img/plane4-n.jpg)
+    background-image: url(../img/plane4-n.jpg);
 }
 #mci5{
     background-image: url(../img/plane5.jpg);
 }
 #mci6{
-    background-image: url(../img/plane6.jpg)
+    background-image: url(../img/plane6.jpg);
 }
 #mci7{
     background-image: url(../img/plane7.jpg);
 }
 #mci8{
-    background-image: url(../img/plane8-n.jpg)
+    background-image: url(../img/plane8-n.jpg);
 }
 #mci9{
     background-image: url(../img/plane9-n.jpg);
 }
+    /* carousel begin */
+.carousel_wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.carousel-inner img {
+    width: 100%;
+    margin: 0 auto;
+}
+.carousel-item{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  cursor: pointer;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.carousel-indicators li{
+    display: inline-block;
+    text-indent: 0;
+    cursor: pointer;
+    background-color: #000000;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); 
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 3rem;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3rem;
+  color: black;
+}
+    /* carousel end */
+
+
+/* #ci1{
+    background-image: url(../img/plane1.jpg);
+}
+#ci2{
+    background-image: url(../img/plane2.jpg);
+}
+#ci3{
+    background-image: url(../img/plane3.jpg);
+} */
+
 /* Footer */
 .footer_container{
     width: 100%;
