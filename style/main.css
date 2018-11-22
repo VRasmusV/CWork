@@ -21,7 +21,16 @@ body{
     height: 8vh;
     font-size: 1.4rem;
     font-weight: normal;
+}
+p.header_title{
+    width: 100%;
     text-align: center;
+    margin: auto;
+    text-decoration: none;
+    transition: 1s;
+}
+p.header_title:hover{
+    color: #123;
 }
 /* Main */
 .main_container{
@@ -86,7 +95,7 @@ body{
 #mci9{
     background-image: url(../img/plane9-n.jpg);
 }
-    /* carousel begin */
+/* carousel begin */
 .carousel_wrapper{
     width: 80%;
     margin: 5vh auto;
@@ -103,6 +112,9 @@ body{
 .carousel-item{
     width: 100%;
     margin: 0 auto;
+}
+.carousel-caption{
+    color: #000000;
 }
 
 .carousel-control-prev-icon,
@@ -132,18 +144,9 @@ body{
   font-size: 3rem;
   color: black;
 }
-    /* carousel end */
+/* carousel end */
 
 
-/* #ci1{
-    background-image: url(../img/plane1.jpg);
-}
-#ci2{
-    background-image: url(../img/plane2.jpg);
-}
-#ci3{
-    background-image: url(../img/plane3.jpg);
-} */
 
 /* Footer */
 .footer_container{

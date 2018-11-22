@@ -6,6 +6,7 @@
 
   <!-- Reset CSS -->
   <link rel="stylesheet" href="style/reset.css">
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,9 +27,21 @@
     <div class="header_container">
       <div class="row header_row">
         <div class="col header_col col-lg-8 col-12 bg-light "></div>
-        <div class="col header_col bg-light">MENU</div>
-        <div class="col header_col bg-light">ABOUT</div>
-        <div class="col header_col bg-light">CONTACT</div>
+        <div class="col header_col bg-light">
+          <a href="#">
+            <p id="menu" class="header_title">MENU</p>
+          </a>
+        </div>
+        <div class="col header_col bg-light">
+          <a href="#">
+            <p id="about" class="header_title">ABOUT</p>
+          </a>
+        </div>
+        <div class="col header_col bg-light">
+          <a href="#">
+            <p id="coxntact" class="header_title">CONTACT</p>
+          </a>
+        </div>
       </div>
       <!-- /.row header_row -->
     </div>
@@ -48,19 +61,43 @@
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <a href="#"><img src="img/plane1-croped.jpg" alt="1"></a>
+          <a href="#"><img src="img/plane1-croped.jpg" alt="1">
+            <div class="carousel-caption">
+              <h3>Item title</h3>
+              <p>Some text about this item</p>
+            </div>
+          </a>
         </div>
         <div class="carousel-item">
           <a href="#"><img src="img/plane2-croped.jpg" alt="2"></a>
+          <div class="carousel-caption">
+            <h3>Item title</h3>
+            <p>Some text about this item</p>
+          </div>
         </div>
         <div class="carousel-item">
-          <a href="#"><img src="img/plane3-croped.jpg" alt="3"></a>
+          <a href="#"><img src="img/plane3-croped.jpg" alt="3">
+            <div class="carousel-caption">
+              <h3>Item title</h3>
+              <p>Some text about this item</p>
+            </div>
+          </a>
         </div>
         <div class="carousel-item">
-          <a href="#"><img src="img/plane1-croped.jpg" alt="4"></a>
+          <a href="#"><img src="img/plane1-croped.jpg" alt="4">
+            <div class="carousel-caption">
+              <h3>Item title</h3>
+              <p>Some text about this item</p>
+            </div>
+          </a>
         </div>
         <div class="carousel-item">
-          <a href="#"><img src="img/plane2-croped.jpg" alt="5"></a>
+          <a href="#"><img src="img/plane2-croped.jpg" alt="5">
+            <div class="carousel-caption">
+              <h3>Item title</h3>
+              <p>Some text about this item</p>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -85,7 +122,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 col-12 main_card">
           <div class="main_card_image" id="mci2"></div>
-          DHC-2T Turbo Beaver 1.5m Rx-R with Spektrum AR620 Receiver
+          HobbyZone Carbon Cub S+ 1.3m RTF
         </div>
         <div class="col-lg-4 col-sm-6 col-12 main_card">
           <div class="main_card_image" id="mci3"></div>
@@ -96,26 +133,32 @@
 
       <div class="row main_row">
         <div class="col-lg-4 col-sm-6 col-12 main_card">
-          <div class="main_card_image" id="mci4"></div>Mini Apprentice S 1.2m RTF with SAFE
+          <div class="main_card_image" id="mci4"></div>
+          Mini Apprentice S 1.2m RTF with SAFE
         </div>
         <div class="col-lg-4 col-sm-6 col-12 main_card">
-          <div class="main_card_image" id="mci5"></div>T-28 Trojan S RTF with SAFE
+          <div class="main_card_image" id="mci5"></div>
+          T-28 Trojan S RTF with SAFE
         </div>
         <div class="col-lg-4 col-sm-6 col-12 main_card">
-          <div class="main_card_image" id="mci6"></div>Champ RTF
+          <div class="main_card_image" id="mci6"></div>
+          Champ RTF
         </div>
       </div>
       <!-- /.main_row -->
 
       <div class="row main_row">
         <div class="col-lg-4 col-sm-6 col-12 main_card">
-          <div class="main_card_image" id="mci7"></div>Duet RTF
+          <div class="main_card_image" id="mci7"></div>
+          Duet RTF
         </div>
         <div class="col-lg-4 col-sm-6 col-12 main_card">
-          <div class="main_card_image" id="mci8"></div>Micro Calypso Glider EP RTF, 24.8"
+          <div class="main_card_image" id="mci8"></div>
+          Micro Calypso Glider EP RTF, 24.8"
         </div>
         <div class="col-lg-4 col-sm-6 col-12 main_card">
-          <div class="main_card_image" id="mci9"></div>Easy Trainer 800 RTF, 800mm
+          <div class="main_card_image" id="mci9"></div>
+          Easy Trainer 800 RTF, 800mm
         </div>
       </div>
       <!-- /.main_row -->
@@ -123,9 +166,6 @@
     <!-- /.row_container -->
   </div>
   <!-- /.main_container -->
-
-
-
 
   <footer>
     <div class="footer_container">
@@ -144,9 +184,11 @@
   </footer>
 
 
+  <!-- Java script start -->
 
-  <!-- Optional JavaScript -->
+  <!-- My JavaScript -->
   <script src="scripts/script.js"></script>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -154,7 +196,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
-
+  <!-- Java script end -->
 </body>
 
 </html>
