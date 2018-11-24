@@ -2,7 +2,7 @@ html{
     font-size: 16px;
 }
 body{
-    background-color: #123;
+    background-color: #121212;
     font-size: 1rem;
     overflow-x: hidden;
     font-family: Verdana, sans-serif;
@@ -17,58 +17,37 @@ a .btn-group .btn:hover { text-decoration: none }
 
 .header_container{
     width: 100%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    background-color: #232323;
+    box-shadow: 0 0 10px rgba(37, 37, 37, 0.9);
 }
 .header_col{
-    outline: 1px solid #123;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 8vh;
-    font-size: 1.4rem;
-    font-weight: normal;
-    
+    font-size: 1.6rem;
+    border-left: 1px solid #898989;
+    transition: 0.5s;
 }
 a.header_title{
     width: 100%;
     text-align: center;
-    margin: auto;
     text-decoration: none;
     transition: 1s;
+    color: rgb(216, 208, 208);
 }
 a.header_title:hover{
-    color: #123;
+    color: white;
 }
-
-
-/* ulheader */
-/* .header_menu{
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: row;
-    height: 10vh;
-}
-
-.menu_logo{
-    background-image: url(../img/logo1.png) ;
-}
-
-.menu_ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
-
-
 /* Main */
 .main_container{
     width: 70%;
     color: white;
     margin: 5vh auto;
     padding-top: 5vh;
-    background: rgb(1, 21, 41);
+    background: #232323;
     border-left: 1px solid white; 
     border-right: 1px solid white; 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 .row_container{
     width: 100%;
@@ -78,12 +57,10 @@ a.header_title:hover{
 .main_row{
     width: 100%;
     margin: 0 auto;
-
 }
 .main_card{
     width: 30%;
     height: 50vh;
-    
     /* background-color: olivedrab; */
 }
 .main_card_image{
@@ -147,7 +124,6 @@ a.header_title:hover{
   height: 100px;
   width: 100px;
   outline: black;
-  cursor: s-resize;
   background-size: 100%, 100%;
   background-image: none;
 }
@@ -203,8 +179,8 @@ a.header_title:hover{
 
 /* Media */
 
-/* @media screen and (max-width: 600px) {
-    html{
-        font-size: 12px;
+@media screen and (max-width: 700px) {
+    .header_col{
+        font-size: 1rem;
     }
-} */
+}
