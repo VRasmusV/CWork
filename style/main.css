@@ -20,6 +20,12 @@ a .btn-group .btn:hover { text-decoration: none }
     background-color: #232323;
     box-shadow: 0 0 10px rgba(37, 37, 37, 0.9);
 }
+/* .header_logo{
+    width: 31%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../img/logo2.png);
+} */
 .header_col{
     display: flex;
     justify-content: center;
@@ -39,6 +45,9 @@ a.header_title{
 a.header_title:hover{
     color: white;
 }
+#logo{
+    font-size: 2.5rem;
+}
 /* Main */
 .main_container{
     width: 70%;
@@ -46,8 +55,8 @@ a.header_title:hover{
     margin: 5vh auto;
     padding-top: 5vh;
     background: #232323;
-    border-left: 1px solid white; 
-    border-right: 1px solid white; 
+    border-left: 1px solid #898989;
+    border-right: 1px solid #898989;
 }
 .row_container{
     width: 100%;
@@ -154,10 +163,10 @@ a.header_title:hover{
     width: 100%;
     height: 50vh;
     position: relative;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
 }
-.footer_white{
-    background-color: azure;
+.footer_gray{
+    background-color: rgb(51, 51, 51);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -170,8 +179,9 @@ a.header_title:hover{
     background-size: cover;
     opacity: 1;
 }
-.footer_articl{
+.footer_article{
     display: inline-block;
+    color: white;
     width: 100%;
     height: 20%;
     opacity: 1;
