@@ -1,53 +1,3 @@
-html{
-    font-size: 16px;
-}
-body{
-    background-color: #121212;
-    font-size: 1rem;
-    overflow-x: hidden;
-    font-family: Verdana, sans-serif;
-}
-
-a:hover .btn-group { text-decoration: none }
-a .btn-group:hover { text-decoration: none }
-a:hover .btn-group .btn { text-decoration: none }
-a .btn-group .btn:hover { text-decoration: none }
-
-/* Header */
-
-.header_container{
-    width: 100%;
-    background-color: #232323;
-    box-shadow: 0 0 10px rgba(37, 37, 37, 0.9);
-}
-/* .header_logo{
-    width: 31%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../img/logo2.png);
-} */
-.header_col{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 8vh;
-    font-size: 1.6rem;
-    border-left: 1px solid #898989;
-    transition: 0.5s;
-}
-a.header_title{
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    transition: 1s;
-    color: rgb(216, 208, 208);
-}
-a.header_title:hover{
-    color: white;
-}
-#logo{
-    font-size: 2.5rem;
-}
 /* Main */
 .main_container{
     width: 70%;
@@ -79,8 +29,14 @@ a.header_title:hover{
     height: 60%;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
 }
-#mci1{
-    background-image: url(../img/plane1.jpg);
+.main_card_image img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+/* #mci1{
+    background-image: url(https://s7d5.scene7.com/is/image/horizonhobby/HBZ3200_a0);
 }
 #mci2{
     background-image: url(../img/plane2.jpg);
@@ -105,7 +61,8 @@ a.header_title:hover{
 }
 #mci9{
     background-image: url(../img/plane9-n.jpg);
-}
+} */
+
 /* carousel begin */
 .carousel_wrapper{
     width: 80%;
@@ -127,7 +84,6 @@ a.header_title:hover{
 .carousel-caption{
     color: #000000;
 }
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
@@ -155,42 +111,3 @@ a.header_title:hover{
   color: black;
 }
 /* carousel end */
-
-
-
-/* Footer */
-.footer_container{
-    width: 100%;
-    height: 50vh;
-    position: relative;
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
-}
-.footer_gray{
-    background-color: rgb(51, 51, 51);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.6;
-}
-.footer_image{
-    background-image: url(../img/footer_image_2.jpg) ;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    opacity: 1;
-}
-.footer_article{
-    display: inline-block;
-    color: white;
-    width: 100%;
-    height: 20%;
-    opacity: 1;
-}
-
-/* Media */
-
-@media screen and (max-width: 700px) {
-    .header_col{
-        font-size: 0.9rem;
-    }
-}
